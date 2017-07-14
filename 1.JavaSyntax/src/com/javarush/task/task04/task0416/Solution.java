@@ -16,6 +16,5 @@ public class Solution {
             if (t >= 4 & t < 5) System.out.println("красный");
             t -= 5;
         }
-
     }
 }

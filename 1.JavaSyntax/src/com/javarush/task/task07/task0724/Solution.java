@@ -6,10 +6,10 @@ package com.javarush.task.task07.task0724;
 
 public class Solution {
     public static void main(String[] args) {
-        Human grandfather1 = new Human("Ваня", false, 90);
-        Human grandfather2 = new Human("Вася", false,80);
-        Human grandmother1 = new Human("Таня", true, 80);
-        Human grandmother2 = new Human("Аня", true, 70);
+        Human grandfather1 = new Human("Ваня", true, 90);
+        Human grandfather2 = new Human("Вася", true,80);
+        Human grandmother1 = new Human("Таня", false, 80);
+        Human grandmother2 = new Human("Аня", false, 70);
         Human father = new Human("Коля",  true, 50, grandfather1, grandmother1);
         Human mother = new Human("Галя", false, 40, grandfather2, grandmother2);
         Human children1 = new Human("Паша", true, 25, father, mother);
